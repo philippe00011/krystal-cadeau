@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Anniversaire 18 ans krystal</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./icon.jpg" type="image/jpg">
+</head>
+<body>
+  <main class="card-container">
+    <section id="welcome" class="card animate-in">
+      <img src="./icon.jpg" alt="Hello Kitty" class="kitty-logo">
+      <h1>Joyeux anniversaire <span id="name">Krystal</span> !</h1>
+      <p>
+        Ce site est une petite surprise pour toi de la part de ton petit-frère.
+      </p>
+      <button class="main-btn" id="explore">Découvrir la surprise</button>
+    </section>
+
+    <section id="surprise" class="card hidden animate-in">
+      <h2>Que veux-tu faire ??????</h2>
+      <div class="actions">
+        <button class="action-btn" data-action="quote">Mon message</button>
+        <button class="action-btn" data-action="wish">Ton cadeau</button>
+      </div>
+      <div id="interaction-content"></div>
+      <button class="main-btn" id="back">Retour</button>
+    </section>
+  </main>
+  <footer>
+    <small>
+      Fait avec <span class="footer-heart">❤</span> par ton petit-frère
+    </small>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
